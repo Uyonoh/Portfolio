@@ -7,7 +7,7 @@ function Footer() {
     const linkedin = "www.linkedin.com/in/uyonoh-turaki-232a97168";
     
     return (
-        <footer id="footer" className="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <footer id="footer" className="d-flex flex-wrap justify-content-between align-items-center py-3 border-top">
             {/* <div className="col-md-4">
                 <span>place</span>
             </div> */}

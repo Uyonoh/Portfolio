@@ -4,7 +4,7 @@ function Home() {
             {/* <!-- Home Section --> */}
   <section id="home" className="hero">
     <h1>Hello, <br /> I'm Uyonoh, a Web Developer & Python Engineer</h1>
-    <p>Building the future with code and innovation.</p>
+    <p className="blue-green">Building the future with code and innovation.</p>
     <button onClick={() => window.location.href='#projects'}>View Projects</button>
     <button className="button outline" onClick={() => window.location.href='#footer'}>Contact Me</button>
   </section>

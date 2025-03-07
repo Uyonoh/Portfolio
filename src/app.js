@@ -7,6 +7,8 @@ app.get("/", function (req, res) {
     res.send("Hello World!");
 });
 
-app.listen(3002, function() {
-    console.log("Listeninng on 3002");
+
+const PORT = 3002;
+app.listen(PORT, function() {
+    console.log("Listeninng on {PORT}");
 });

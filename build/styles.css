@@ -18,7 +18,7 @@ header {
   right: 0;
   background-color: #fff;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  /* padding: .5rem 2rem; */
+  padding: 1rem;
   z-index: 1000;
 }
 
@@ -30,12 +30,12 @@ nav {
   padding-left: 30px;
 }
 
-/* nav ul {
+nav ul {
   display: flex;
   align-items: center;
   justify-content: space-around;
   list-style: none;
-} */
+}
 
 a {
   text-decoration: none;
@@ -77,8 +77,8 @@ button.outline {
   background-color: #ebeaea;
 }
 
-.blue-green{
-  color: #0d6efd;
+.hero p{
+  color: #848de2;
   text-align: center;
 }
 
@@ -164,7 +164,7 @@ p, li {
 
 /* Footer */
 footer {
-  padding: .5rem 2rem;
+  padding: 0 2rem;
   margin-bottom: 0px;
 }
 
@@ -173,16 +173,15 @@ footer {
 }
 
 #darkModeToggle {
-  background-color: #353535;
+  background-color: #000;
   color: #fff;
   padding: 0.5rem 1rem;
   cursor: pointer;
   border: none;
-  margin: 0px;
 }
 
 #darkModeToggle:hover {
-  background-color: #161616;
+  background-color: #444;
 }
 
 /* Dark Mode Styles */
@@ -200,23 +199,15 @@ body.dark-mode header {
 }
 
 body.dark-mode nav a {
-  color: #ececec;
-}
-
-body.dark-mode #darkModeToggle {
-  background-color: #a7a7a7;
-}
-
-body.dark-mode #darkModeToggle:hover {
-  background-color: #e7e7e7;
+  color: #fff;
 }
 
 body.dark-mode .hero {
   background-color: #646464;
-}
 
-body.dark-mode .blue-green {
-  color: #accf84;
+  p {
+    color: #accf84;
+  }
 }
 
 body.dark-mode svg {
