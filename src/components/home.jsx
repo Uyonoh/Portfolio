@@ -29,7 +29,7 @@ function Home() {
     </p>
     <div id="certifications">
       <h3>Certifications</h3>
-      <ul>
+      {/* <ul>
         <li>Ai Productivity Hacks to Reimagine Your Workdsy and Career by Linkedin</li>
         <li>Build Your Generative AI Productivity Skills with Microsoft and Linkedin</li>
         <li>Career Essentials by Microsoft and Linkedin</li>
@@ -38,7 +38,34 @@ function Home() {
         <li>Introduction to Prompt Engineering for Generative AI by Linkedin</li>
         <li>Introduction to Career Skills in Software Development bu Linkedin</li>
         <li>Developing Your Emotional Intelligence by Linkedin</li>
-      </ul>
+      </ul> */}
+
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="project1.jpg" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="project1.jpg" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="project1.jpg" class="d-block w-100" alt="..." />
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
     </div>
     
   </section>
