@@ -123,6 +123,10 @@ p, li {
   text-align: left;
 }
 
+.carousel-indicators {
+  background-color: #accf84;
+}
+
 
 /* Projects */
 /* #projects {

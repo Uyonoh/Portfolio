@@ -1,8 +1,12 @@
 // import logo from './logo.svg';
 // import './App.css';
+
+import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+
 import Header from './header';
 import Footer from './footer';
 import Home from './home';
+import Blog from './blog';
 
 
 // function App() {
@@ -27,10 +31,18 @@ import Home from './home';
 // }
 
 function App() {
+  
   return (
     <div>
       <Header></Header>
-      <Home></Home>
+      <Router>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/blog" element={<Blog />} />
+
+        </Routes>
+      </Router>
+      
       <Footer></Footer>
     </div>
   )
