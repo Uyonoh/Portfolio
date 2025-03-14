@@ -123,8 +123,8 @@ p, li {
   text-align: left;
 }
 
-.carousel-indicators {
-  background-color: #accf84;
+.carousel-indicators [data-bs-target] {
+  background-color: #151a10;
 }
 
 
@@ -168,6 +168,10 @@ p, li {
 
 /* Footer */
 footer {
+  position:relative;
+  bottom: 0;
+  width: 100%;
+
   padding: .5rem 2rem;
   margin-bottom: 0px;
 }

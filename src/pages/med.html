@@ -1,0 +1,179 @@
+<!Doctype HTML>
+<html>
+<head>
+	<meta name="charset" value="utf-8" />
+	<meta name="viewport" value="content-width" />
+	
+</head>
+
+<style>
+
+body {
+	padding: 2rem 1rem .1rem;
+}
+
+header {
+	border-top: 1px solid #eee;
+	border-bottom: 1px solid #eee;
+	padding: 5px 0;
+	
+	h1 {
+		margin: 0;
+		}
+}
+
+
+nav {
+	padding: .5rem 0;
+}
+
+.cont {
+	padding-left:  5rem;
+	padding-right: 5rem;
+}
+
+.flex {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 1rem;
+}
+
+.flex.lt {
+	justify-content: left;
+}
+
+.flex.rt {
+	justify-content: right;
+}
+
+.search {
+	padding: .3rem;
+	margin-left: 1rem;
+}
+
+.bb {
+	border-bottom: 1px solid #eee;
+}
+
+.bggrey {
+	border: none;
+	background-color: #eee;
+}
+
+.bggreen {
+	background-color: green;
+	color: #fff;
+	padding: 2px;
+	border-radius: 5px;
+}
+
+.round-edge {
+	border-radius: 10px;
+}
+
+input:focus-visible {
+	outline: none;
+}
+
+.posts {
+	padding-top: 1rem;
+	border-right: 1 px solid #eee;
+	margin-right: 20%;
+}
+
+.post {
+	width: 60%;
+	padding-bottom: 2rem;
+	padding-top: 2rem;
+}
+
+</style>
+
+<body>
+	<header class="flex">
+		<div class="left flex">
+			<h1>Medium</h1>
+			<div class="search round-edge bggrey">
+				<img src="" alt="search" />
+				<input  type="text" class="bggrey" placeholder="Search" />
+			</div>
+		</div>
+		
+		<div class="right flex">
+			<img src="" alt="edit" />
+			<img src="" alt="user" />
+		</div>
+	</header>
+	
+	<nav class="flex lt bb cont">
+		<span>+</span>
+		<span>For you</span>
+		<span>Following</span>
+		<span> Featured <span class="bggreen">New</span></span>
+	</nav>
+	
+	<section class="posts cont">
+		<div class="post bb flex lt grid-8-4">
+			<div>
+				<div class="flex lt">
+					<img src="" alt="" width="20px" height="20px" />
+					<span class="info">In Level up programming</span>
+				</div>
+		
+				<h2 class="title">Stop making yor python projects look like it was 15 years ago...</h2>
+				<p class="peek">I have a few things I’ve seen across companies and projects that I’ve seen working with Python that are annoying, hard to maintain...</p>
+				
+				<div class="flex">
+					<div class="flex lt">
+						<span>X</span>
+						<span>Sep 28, 2024</span>
+						<span>6.2K</span>
+						<span>75</span>
+					</div>
+					<div class="flex rt">
+						<span>--</span>
+						<span>M</span>
+						<span>===</span>
+					</div>
+				</div>
+			</div>
+			<div>
+				<img src="" alt="" width="80px" height="120px" />
+			</div>
+		</div>
+		
+		<div class="post bb flex lt grid-8-4">
+			<div>
+				<div class="flex lt">
+					<img src="" alt="" width="20px" height="20px" />
+					<span class="info">In Level up programming</span>
+				</div>
+		
+				<h2 class="title">Stop making yor python projects look like it was 15 years ago...</h2>
+				<p class="peek">I have a few things I’ve seen across companies and projects that I’ve seen working with Python that are annoying, hard to maintain...</p>
+				
+				<div class="flex">
+					<div class="flex lt">
+						<span>X</span>
+						<span>Sep 28, 2024</span>
+						<span>6.2K</span>
+						<span>75</span>
+					</div>
+					<div class="flex rt">
+						<span>--</span>
+						<span>M</span>
+						<span>===</span>
+					</div>
+				</div>
+			</div>
+			<div>
+				<img src="" alt="" width="80px" height="120px" />
+			</div>
+		</div>
+	</section>
+
+</body>
+
+</html>
+

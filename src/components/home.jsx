@@ -48,13 +48,13 @@ function Home() {
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="project1.jpg" class="d-block w-100" alt="..." />
+            <img src="/assets/images/project1.jpg" class="d-block w-100" alt="..." />
           </div>
           <div class="carousel-item">
-            <img src="project1.jpg" class="d-block w-100" alt="..." />
+            <img src="/assets/images/project1.jpg" class="d-block w-100" alt="..." />
           </div>
           <div class="carousel-item">
-            <img src="project1.jpg" class="d-block w-100" alt="..." />
+            <img src="/assets/images/project1.jpg" class="d-block w-100" alt="..." />
           </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -76,23 +76,23 @@ function Home() {
     <div className="project-grid">
       {/* <!-- Project Item --> */}
       <div className="project">
-        <img src="project1.jpg" alt="Project 1" />
+        <img src="/assets/images/project1.jpg" alt="Project 1" />
         <a href="https://github.com/uyonoh/project" target="_blank">Project 1</a>
       </div>
       <div className="project">
-        <img src="project1.jpg" alt="Project 1" />
+        <img src="/assets/images/project1.jpg" alt="Project 1" />
         <a href="https://github.com/uyonoh/project" target="_blank">Project 2</a>
       </div>
       <div className="project">
-        <img src="project1.jpg" alt="Project 1" />
+        <img src="/assets/images/project1.jpg" alt="Project 1" />
         <a href="https://github.com/uyonoh/project" target="_blank">Project 3</a>
       </div>
       <div className="project">
-        <img src="project1.jpg" alt="Project 1" />
+        <img src="/assets/images/project1.jpg" alt="Project 1" />
         <a href="https://github.com/uyonoh/project" target="_blank">Project 4</a>
       </div>
       <div className="project">
-        <img src="project1.jpg" alt="Project 1" />
+        <img src="/assets/images/project1.jpg" alt="Project 1" />
         <a href="https://github.com/uyonoh/project" target="_blank">Project 5</a>
       </div>
       {/* <!-- Repeat for more projects --> */}

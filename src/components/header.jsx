@@ -1,4 +1,18 @@
+import { useEffect } from "react";
+
 function Header() {
+
+  // useEffect(() => {
+  //   const script = document.createElement("script");
+  //   script.src = "/scripts/script.js"; // Path from the public folder
+  //   script.async = true;
+  //   document.body.appendChild(script);
+
+  //   return () => {
+  //     document.body.removeChild(script); // Cleanup script when component unmounts
+  //   };
+  // }, []);
+
     return(
     <div class="container">
     <header class="d-flex flex-wrap align-items-center justify-content-between justify-content-md-between mb-4 py-0 py-md-2 py-xl-3 border-bottom">
@@ -15,11 +29,11 @@ function Header() {
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li><a href="#" className="blue-green nav-link px-2">Home</a></li>
-              <li><a href="#" className="blue-green nav-link px-2">About</a></li>
-              <li><a href="#" className="blue-green nav-link px-2">Projects</a></li>
-              <li><a href="#" className="blue-green nav-link px-2">Blog</a></li>
-              <li><a href="#" className="blue-green nav-link px-2">Contact</a></li>
+              <li><a href="." className="blue-green nav-link px-2">Home</a></li>
+              <li><a href="#about" className="blue-green nav-link px-2">About</a></li>
+              <li><a href="#projects" className="blue-green nav-link px-2">Projects</a></li>
+              <li><a href="/blog" className="blue-green nav-link px-2">Blog</a></li>
+              <li><a href="#footer" className="blue-green nav-link px-2">Contact</a></li>
             </ul>
           </div>
           
@@ -36,6 +50,7 @@ function Header() {
           {/* <button type="button" class="btn btn-primary">Sign-up</button> */}
       </div>
     </header>
+    <script src="/scripts/script.js" type="text/JavaScript" defer></script>
   </div>
     )
 }
