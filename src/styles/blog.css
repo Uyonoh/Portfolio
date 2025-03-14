@@ -1,20 +1,84 @@
 #root #blog {
     margin-top: 50px;
     padding: 1rem;
-    border-top: 1px solid #000;
+}
+
+body {
+	padding: 2rem 1rem .1rem;
+}
+
+header {
+	border-top: 1px solid #eee;
+	border-bottom: 1px solid #eee;
+	padding: 5px 0;
+	
+	h1 {
+		margin: 0;
+		}
+}
+
+
+nav {
+	padding: .5rem 0;
+}
+
+.cont {
+	padding-left:  5rem;
+	padding-right: 5rem;
+}
+
+.flex {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 1rem;
+}
+
+.flex.lt {
+	justify-content: left;
+}
+
+.flex.rt {
+	justify-content: right;
+}
+
+.search {
+	padding: .3rem;
+	margin-left: 1rem;
+}
+
+.bb {
+	border-bottom: 1px solid #eee;
+}
+
+.bggrey {
+	border: none;
+	background-color: #eee;
+}
+
+.bggreen {
+	background-color: green;
+	color: #fff;
+	padding: 2px;
+	border-radius: 5px;
+}
+
+.round-edge {
+	border-radius: 10px;
+}
+
+input:focus-visible {
+	outline: none;
+}
+
+.posts {
+	padding-top: 1rem;
+	border-right: 1 px solid #eee;
+	margin-right: 20%;
 }
 
 .post {
-    width: 60%;
-    min-width: 300px;
-    border: 2px solid #777777;
-    border-radius: 7px;
-    margin: 1rem;
-    padding: .5rem;
-}
-
-.post-foot {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+	width: 60%;
+	padding-bottom: 2rem;
+	padding-top: 2rem;
 }

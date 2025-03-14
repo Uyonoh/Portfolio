@@ -2,17 +2,26 @@ import { useEffect } from "react";
 
 function Header() {
 
-  // useEffect(() => {
-  //   const script = document.createElement("script");
-  //   script.src = "/scripts/script.js"; // Path from the public folder
-  //   script.async = true;
-  //   document.body.appendChild(script);
+  useEffect(() => {
+    const button = document.getElementById("darkModeToggle");
 
-  //   return () => {
-  //     document.body.removeChild(script); // Cleanup script when component unmounts
-  //   };
-  // }, []);
+    function toggleDarkMode() {
+      document.body.classList.toggle("dark-mode");
+      console.log("dark mode toggled");
+    }
 
+    if (button) {
+      button.addEventListener("click", toggleDarkMode);
+    }
+
+    return () => {
+      if (button) {
+        button.removeEventListener("click", toggleDarkMode);
+      }
+    };
+  }, []);
+
+  
     return(
     <div class="container">
     <header class="d-flex flex-wrap align-items-center justify-content-between justify-content-md-between mb-4 py-0 py-md-2 py-xl-3 border-bottom">
@@ -50,7 +59,7 @@ function Header() {
           {/* <button type="button" class="btn btn-primary">Sign-up</button> */}
       </div>
     </header>
-    <script src="/scripts/script.js" type="text/JavaScript" defer></script>
+    {/* <script src="/scripts/script.js" type="text/JavaScript" defer></script> */}
   </div>
     )
 }

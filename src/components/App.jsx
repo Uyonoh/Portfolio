@@ -5,8 +5,9 @@ import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 
 import Header from './header';
 import Footer from './footer';
-import Home from './home';
-import Blog from './blog';
+import Home from '../pages/home';
+import Blog from '../pages/blog';
+import Post from '../pages/post';
 
 
 // function App() {
@@ -39,6 +40,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/blog" element={<Blog />} />
+          <Route path="/blog/:slug" element={<Post />} />
 
         </Routes>
       </Router>
