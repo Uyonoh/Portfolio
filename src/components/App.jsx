@@ -8,7 +8,8 @@ import Footer from './footer';
 import Home from '../pages/home';
 import Blog from '../pages/blog';
 import Post from '../pages/post';
-
+import PostForm from '../pages/newpost';
+import Auth from '../pages/Auth';
 
 // function App() {
 //   return (
@@ -39,8 +40,10 @@ function App() {
       <Router>
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/auth" element={<Auth />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="/blog/:slug" element={<Post />} />
+          <Route path="/blog/new" element={<PostForm />} />
 
         </Routes>
       </Router>

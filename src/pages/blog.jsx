@@ -45,6 +45,7 @@ function PostPreview(props){
 
 function Blog() {
     const [posts, setPosts] = useState([]);
+    const isLoggedIn = localStorage.getItem("token") !== "";
 
     useEffect(() => {
     axios.get("http://localhost:8000/api/posts/")
@@ -71,7 +72,7 @@ function Blog() {
         </ul> */}
 
     <nav class="flex lt bb cont">
-		<span>+</span>
+        <Link to={`/blog/new`}>{isLoggedIn ? <span>+</span> : <span></span>}</Link>
 		<span>For you</span>
 		<span>Following</span>
 		<span> Featured <span class="bggreen">New</span></span>
