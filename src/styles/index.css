@@ -11,6 +11,14 @@ body {
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
+.flex-col {
+  display: flex;
+  flex-direction: column;
+  /* align-items: space-between; */
+  justify-content: space-between;
+  height: 95vh;
+}
+
 header {
   position: fixed;
   top: 0;
@@ -142,11 +150,34 @@ p, li {
   /* background-color: #ebeaea; */
 }
 
-/* .project {
+.project-card {
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+}
+
+.project-card img {
   width: 100%;
-  border-radius: 5%;
-  box-shadow: #646464 10px 2px;
-} */
+  height: 200px; /* Fixed height for consistent card sizes */
+  object-fit: cover; /* Ensure images fill the container */
+}
+
+.project-card a {
+  display: block;
+  padding: 10px;
+  text-align: center;
+  color: #333;
+  text-decoration: none;
+}
+
+.project-card a:hover {
+  background-color: #f0f0f0;
+}
 
 .project img {
   width: 100%;

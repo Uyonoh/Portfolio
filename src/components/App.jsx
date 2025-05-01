@@ -6,7 +6,7 @@ import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import Header from './header';
 import Footer from './footer';
 import Home from '../pages/home';
-import Blog from '../pages/blog';
+import NoBlog from '../pages/no_blog';
 import Post from '../pages/post';
 import PostForm from '../pages/newpost';
 import Auth from '../pages/Auth';
@@ -35,13 +35,13 @@ import Auth from '../pages/Auth';
 function App() {
   
   return (
-    <div>
+    <div className='flex-col'>
       <Header />
       <Router>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/auth" element={<Auth />} />
-          <Route path="/blog" element={<Blog />} />
+          <Route path="/blog" element={<NoBlog />} />
           <Route path="/blog/:slug" element={<Post />} />
           <Route path="/blog/new" element={<PostForm />} />
 

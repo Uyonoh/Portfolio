@@ -48,13 +48,13 @@ function Home() {
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="/assets/images/project1.jpg" class="d-block w-100" alt="..." />
+            <img src="/assets/images/certifications/Build Your Generative AI Productivity Skills with Microsoft and LinkedIn.jpeg" class="d-block w-100" alt="..." />
           </div>
           <div class="carousel-item">
-            <img src="/assets/images/project1.jpg" class="d-block w-100" alt="..." />
+            <img src="/assets/images/certifications/Career Essentials in Software Development by Microsoft and LinkedIn.jpeg" class="d-block w-100" alt="..." />
           </div>
           <div class="carousel-item">
-            <img src="/assets/images/project1.jpg" class="d-block w-100" alt="..." />
+            <img src="/assets/images/certifications/Introduction to Prompt Engineering for Generative AI.jpeg" class="d-block w-100" alt="..." />
           </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -75,24 +75,24 @@ function Home() {
     <h2>Projects</h2>
     <div className="project-grid">
       {/* <!-- Project Item --> */}
-      <div className="project">
-        <img src="/assets/images/project1.jpg" alt="Project 1" />
-        <a href="https://github.com/uyonoh/project" target="_blank">Project 1</a>
+      <div className="project-card">
+        <img src="/assets/images/projects/portfolio.jpg" alt="Project 1" />
+        <a href="https://github.com/uyonoh/portfolio" target="_blank">Portfolio</a>
       </div>
-      <div className="project">
-        <img src="/assets/images/project1.jpg" alt="Project 1" />
-        <a href="https://github.com/uyonoh/project" target="_blank">Project 2</a>
+      <div className="project-card">
+        <img src="/assets/images/projects/quiz_app.png" alt="Trivia Web App" />
+        <a href="https://github.com/uyonoh/quiz-app" target="_blank">Trivia Web App</a>
       </div>
-      <div className="project">
-        <img src="/assets/images/project1.jpg" alt="Project 1" />
+      <div className="project-card">
+        <img src="/assets/images/projects/portfolio.jpg" alt="Project 3" />
         <a href="https://github.com/uyonoh/project" target="_blank">Project 3</a>
       </div>
-      <div className="project">
-        <img src="/assets/images/project1.jpg" alt="Project 1" />
+      <div className="project-card">
+        <img src="/assets/images/projects/portfolio.jpg" alt="Project 4" />
         <a href="https://github.com/uyonoh/project" target="_blank">Project 4</a>
       </div>
-      <div className="project">
-        <img src="/assets/images/project1.jpg" alt="Project 1" />
+      <div className="project-card">
+        <img src="/assets/images/projects/portfolio.jpg" alt="Project 5" />
         <a href="https://github.com/uyonoh/project" target="_blank">Project 5</a>
       </div>
       {/* <!-- Repeat for more projects --> */}
