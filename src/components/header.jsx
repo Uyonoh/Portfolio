@@ -1,9 +1,7 @@
 import { useEffect } from "react";
-import CurrentUser from "../utils/user";
 
 function Header() {
 
-  const user = localStorage.getItem("user");
   useEffect(() => {
     const button = document.getElementById("darkModeToggle");
 

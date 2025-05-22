@@ -44,6 +44,7 @@ function PostForm() {
                     },
                 }
             );
+            console.log("Response:", response.data);
             setMessage("Post created successfully!");
         } catch (error) {
             console.error("Error submitting post:", error);
