@@ -7,7 +7,6 @@ This is my personal **portfolio website** built using **React, jQuery, and Boots
 
 ## 🛠️ Tech Stack
 - **React** - Frontend framework for building UI components
-- **jQuery** - Simplifies DOM manipulation and animations
 - **Bootstrap** - Responsive UI design framework
 
 ## 📂 Features

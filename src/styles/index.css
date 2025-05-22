@@ -162,7 +162,7 @@ p, li {
 }
 
 .project-card img {
-  width: 100%;
+  width: inherit;
   height: 200px; /* Fixed height for consistent card sizes */
   object-fit: cover; /* Ensure images fill the container */
 }

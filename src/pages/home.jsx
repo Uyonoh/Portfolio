@@ -77,58 +77,27 @@ function Home() {
       {/* <!-- Project Item --> */}
       <div className="project-card">
         <img src="/assets/images/projects/portfolio.jpg" alt="Project 1" />
-        <a href="https://github.com/uyonoh/portfolio" target="_blank">Portfolio</a>
+        <a href="https://github.com/uyonoh/portfolio" target="_blank" rel="noreferrer">Portfolio</a>
       </div>
       <div className="project-card">
         <img src="/assets/images/projects/quiz_app.png" alt="Trivia Web App" />
-        <a href="https://github.com/uyonoh/quiz-app" target="_blank">Trivia Web App</a>
+        <a href="https://github.com/uyonoh/quiz-app" target="_blank" rel="noreferrer">Trivia Web App</a>
       </div>
       <div className="project-card">
-        <img src="/assets/images/projects/portfolio.jpg" alt="Project 3" />
-        <a href="https://github.com/uyonoh/project" target="_blank">Project 3</a>
+        <img src="/assets/images/projects/nexus.png" alt="Tech Nexus Eccomerce Platform" />
+        <a href="https://github.com/uyonoh/Nexus" target="_blank" rel="noreferrer">Tech Nexus Eccommerce</a>
       </div>
       <div className="project-card">
         <img src="/assets/images/projects/portfolio.jpg" alt="Project 4" />
-        <a href="https://github.com/uyonoh/project" target="_blank">Project 4</a>
+        <a href="https://github.com/uyonoh/Cover-Letter-LLM" target="_blank" rel="noreferrer">Cover Letter Using LLMs</a>
       </div>
       <div className="project-card">
         <img src="/assets/images/projects/portfolio.jpg" alt="Project 5" />
-        <a href="https://github.com/uyonoh/project" target="_blank">Project 5</a>
+        <a href="https://github.com/uyonoh/project" target="_blank" rel="noreferrer">Project 5</a>
       </div>
       {/* <!-- Repeat for more projects --> */}
     </div>
   </section>
-
-  {/* <!-- Skills Section --> */}
-  {/* <section id="skills" className="container">
-    <h2>Skills</h2>
-    <ul>
-      <li>Web Development: <ul>
-          <li className="indent">Front-end: Html, Css, Bootstrap, Javascrpit, React</li>
-          <li className="indent">Back-end: Express, Django</li>
-        </ul>
-        </li>
-      <li>Python</li>
-      <li>Machine Learning: Tensorflow, Pytorch, Scikit-Learn</li>
-    </ul>
-  </section> */}
-
-  {/* <!-- Blog Section --> */}
-  {/* <section id="blog" className="container">
-    <h2>Blog</h2>
-    <p>Coming soon...</p>
-  </section> */}
-
-  {/* <!-- Contact Section --> */}
-  {/* <section id="contact" className="container">
-    <h2>Contact</h2>
-    <ul>
-      <li><a href="mailto:your-email@example.com">Email</a></li>
-      <li><a href="https://github.com/your-github" target="_blank">GitHub</a></li>
-      <li><a href="https://linkedin.com/in/your-linkedin" target="_blank">LinkedIn</a></li>
-    </ul>
-    <button onclick="window.location.href='resume.pdf'">Download Resume</button>
-  </section> */}
         </div>
     )
 }
