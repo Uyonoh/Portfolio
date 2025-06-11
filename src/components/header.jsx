@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 
 function Header() {
-
+  const blogLink = process.env.REACT_APP_BLOG_LINK || "/blog";
   useEffect(() => {
     const button = document.getElementById("darkModeToggle");
 
@@ -41,7 +41,7 @@ function Header() {
               <li><a href="." className="blue-green nav-link px-2">Home</a></li>
               <li><a href="#about" className="blue-green nav-link px-2">About</a></li>
               <li><a href="#projects" className="blue-green nav-link px-2">Projects</a></li>
-              <li><a href="/blog" className="blue-green nav-link px-2">Blog</a></li>
+              <li><a href={blogLink} className="blue-green nav-link px-2">Blog</a></li>
               <li><a href="#footer" className="blue-green nav-link px-2">Contact</a></li>
             </ul>
           </div>
