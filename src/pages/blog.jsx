@@ -8,27 +8,27 @@ import '../styles/blog.css'
 function PostPreview(props){
 
     return(
-        <div class="post bb flex lt grid-8-4">
+        <div className="post bb flex lt grid-8-4">
 			<div>
 				<div>
                     <Link to={`/blog/${props.slug}`}>
-                        <div class="flex lt">
+                        <div className="flex lt">
                             <img src="" alt="" width="20px" height="20px" />
-                            <span class="info">{props.section}</span>
+                            <span className="info">{props.section}</span>
                         </div>
                 
-                        <h2 class="title">{props.title}</h2>
-                        <p class="peek">{props.content}</p>
+                        <h2 className="title">{props.title}</h2>
+                        <p className="peek">{props.content}</p>
                     </Link>
                 </div>
-				<div class="flex">
-					<div class="flex lt">
+				<div className="flex">
+					<div className="flex lt">
 						<span>X</span>
 						<span>{props.created_at}</span>
 						<span>{props.likes}</span>
 						<span>{props.comments_count}</span>
 					</div>
-					<div class="flex rt">
+					<div className="flex rt">
 						<span>--</span>
 						<span>M</span>
 						<span>===</span>
@@ -71,14 +71,14 @@ function Blog() {
             ))}
         </ul> */}
 
-    <nav class="flex lt bb cont">
+    <nav className="flex lt bb cont">
         <Link to={`/blog/new`}>{isLoggedIn ? <span>+</span> : <span></span>}</Link>
 		<span>For you</span>
 		<span>Following</span>
-		<span> Featured <span class="bggreen">New</span></span>
+		<span> Featured <span className="bggreen">New</span></span>
 	</nav>
 	
-	<section class="posts cont">
+	<section className="posts cont">
 		{posts.map(post => (
             <PostPreview
             section={post.section}

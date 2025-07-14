@@ -4,14 +4,14 @@ function Home() {
             {/* <!-- Home Section --> */}
   <section id="home" className="hero">
     <h1>Hello, <br /> I'm Uyonoh, a Web Developer & Python Engineer</h1>
-    <p className="blue-green">Building the future with code and innovation.</p>
+    <p className="blue-green text-center">Building the future with code and innovation.</p>
     <button onClick={() => window.location.href='#projects'}>View Projects</button>
     <button className="button outline" onClick={() => window.location.href='#footer'}>Contact Me</button>
   </section>
   
 
   {/* <!-- About Section --> */}
-  <section id="about" className="container">
+  <section id="about" className="container pt-5 mt-5">
     <h2>About Me</h2>
     <p>I consider myself a passionate web developer, python engineer and GIS engineer with a passion for building 
       intelligent, data-driven applications.</p>
@@ -28,7 +28,7 @@ function Home() {
       I thrive on solving complex problems and building scalable, impactful solutions.
     </p>
     <div id="certifications">
-      <h3>Certifications</h3>
+      <h2>Certifications</h2>
       {/* <ul>
         <li>Ai Productivity Hacks to Reimagine Your Workdsy and Career by Linkedin</li>
         <li>Build Your Generative AI Productivity Skills with Microsoft and Linkedin</li>
@@ -40,30 +40,30 @@ function Home() {
         <li>Developing Your Emotional Intelligence by Linkedin</li>
       </ul> */}
 
-      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel">
+        <div className="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="/assets/images/certifications/Build Your Generative AI Productivity Skills with Microsoft and LinkedIn.jpeg" class="d-block w-100" alt="..." />
+        <div className="carousel-inner">
+          <div className="carousel-item active">
+            <img src="/assets/images/certifications/Build Your Generative AI Productivity Skills with Microsoft and LinkedIn.jpeg" className="d-block w-100" alt="..." />
           </div>
-          <div class="carousel-item">
-            <img src="/assets/images/certifications/Career Essentials in Software Development by Microsoft and LinkedIn.jpeg" class="d-block w-100" alt="..." />
+          <div className="carousel-item">
+            <img src="/assets/images/certifications/Career Essentials in Software Development by Microsoft and LinkedIn.jpeg" className="d-block w-100" alt="..." />
           </div>
-          <div class="carousel-item">
-            <img src="/assets/images/certifications/Introduction to Prompt Engineering for Generative AI.jpeg" class="d-block w-100" alt="..." />
+          <div className="carousel-item">
+            <img src="/assets/images/certifications/Introduction to Prompt Engineering for Generative AI.jpeg" className="d-block w-100" alt="..." />
           </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
+        <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span className="visually-hidden">Previous</span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
+        <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span className="carousel-control-next-icon" aria-hidden="true"></span>
+          <span className="visually-hidden">Next</span>
         </button>
       </div>
     </div>
@@ -71,7 +71,7 @@ function Home() {
   </section>
 
   {/* <!-- Projects Section --> */}
-  <section id="projects" className="container">
+  <section id="projects" className="container pt-5 mt-5">
     <h2>Projects</h2>
     <div className="project-grid">
       {/* <!-- Project Item --> */}
@@ -88,12 +88,13 @@ function Home() {
         <a href="https://github.com/uyonoh/Nexus" target="_blank" rel="noreferrer">Tech Nexus Eccommerce</a>
       </div>
       <div className="project-card">
-        <img src="/assets/images/projects/portfolio.jpg" alt="Project 4" />
+        <img src="/assets/images/projects/letter.jpg" alt="Project 4" /> 
+        {/* <a href="https://www.freepik.com/free-vector/gradient-network-connection-background_12704532.htm">Image by freepik</a> */}
         <a href="https://github.com/uyonoh/Cover-Letter-LLM" target="_blank" rel="noreferrer">Cover Letter Using LLMs</a>
       </div>
       <div className="project-card">
-        <img src="/assets/images/projects/portfolio.jpg" alt="Project 5" />
-        <a href="https://github.com/uyonoh/project" target="_blank" rel="noreferrer">Project 5</a>
+        <img src="/assets/images/logos/github.png" alt="Git Hub" />
+        <a href="https://github.com/uyonoh" target="_blank" rel="noreferrer">More from me...</a>
       </div>
       {/* <!-- Repeat for more projects --> */}
     </div>

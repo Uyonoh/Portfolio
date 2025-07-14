@@ -19,25 +19,25 @@ function Post(){
     if (!post) return <p>Loading...</p>;
     console.log(post)
     return(
-        <section class="mid flex ct">
-		<div class="post-head">
-			<h1 class="title">{post.title}</h1>
-			<h2 class="subtitle grey">{post.subtitle}</h2>
-			<div class="flex lt info">
-				<div class="profile 2img">
-					<img src=""  alt="" class="round" />
+        <section className="mid flex ct">
+		<div className="post-head">
+			<h1 className="title">{post.title}</h1>
+			<h2 className="subtitle grey">{post.subtitle}</h2>
+			<div className="flex lt info">
+				<div className="profile 2img">
+					<img src=""  alt="" className="round" />
 				</div>
-				<div class="">
-					<p>{post.author?.name} . <span class="grey">Solo</span></p> 
-					<p><span class="grey">Published in </span> {post.section} . <span class="grey">11 min read</span> . <span class="grey">{post.formatted_created_at}</span></p>
+				<div className="">
+					<p>{post.author?.name} . <span className="grey">Solo</span></p> 
+					<p><span className="grey">Published in </span> {post.section} . <span className="grey">11 min read</span> . <span className="grey">{post.formatted_created_at}</span></p>
 				</div>
 			</div>
-			<div class="metrics flex by">
-				<div class="flex lt">
+			<div className="metrics flex by">
+				<div className="flex lt">
 					<span>{post.likes}</span>
 					<span>{post.comments}</span>
 				</div>
-				<div class="flex rt">
+				<div className="flex rt">
 					<span>+</span>
 					<span>listen</span>
 					<span>share</span>
@@ -45,12 +45,12 @@ function Post(){
 			</div>
 		</div>
 		
-		<figure class="post-img">
+		<figure className="post-img">
 			<img src={post.thumbnail} alt="" width="600px" height="500px" />
-			<figcaption class="grey">Me After using Automation Scripts vs Me Before — AI Generate Images using Microsoft Copilot</figcaption>
+			<figcaption className="grey">Me After using Automation Scripts vs Me Before — AI Generate Images using Microsoft Copilot</figcaption>
 		</figure>
 		
-		<div class="post-body">
+		<div className="post-body">
 			<p>
 			{post.content}
 			</p>

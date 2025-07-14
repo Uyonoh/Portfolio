@@ -87,7 +87,6 @@ button.outline {
 
 .blue-green{
   color: #0d6efd;
-  text-align: center;
 }
 
 h1 {
@@ -98,10 +97,13 @@ h1 {
 h2 {
   font-size: 2rem;
   margin-top: 20px;
+  text-align: center;
 }
 
 h3 {
   font-size: 1.5rem;
+  text-align: left;
+  margin: .5rem;
 }
 
 p {
@@ -137,10 +139,11 @@ p, li {
 
 
 /* Projects */
-/* #projects {
-  background-color: #ebeaea;
-  margin: auto .5rem;
-} */
+#projects {
+  /* background-color: #ebeaea; */
+  /* margin: auto .5rem; */
+  padding: .5rem 2rem;
+}
 
 .project-grid {
   display: grid;
@@ -279,16 +282,19 @@ body.dark-mode button:hover {
   background-color: #777;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 992px) {
   .container {
-    padding: .5rem 2rem;
+    padding: .5rem 2rem !important;
   }
+}
 
+@media screen and (max-width: 800px) {
   .project-grid {
-    display: block;
+    display: flex;
+    flex-direction: column;
     
-    .project {
-      margin-bottom: 1.5rem;
+    .project-card {
+      margin-bottom: 2rem;
     }
   }
 }
