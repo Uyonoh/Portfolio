@@ -162,6 +162,7 @@ p, li {
 
 .project-card:hover {
   transform: translateY(-5px);
+  cursor: pointer;
 }
 
 .project-card img {
@@ -170,7 +171,7 @@ p, li {
   object-fit: cover; /* Ensure images fill the container */
 }
 
-.project-card a {
+.project-card p {
   display: block;
   padding: 10px;
   text-align: center;
@@ -178,9 +179,9 @@ p, li {
   text-decoration: none;
 }
 
-.project-card a:hover {
+/* .project-card a:hover {
   background-color: #f0f0f0;
-}
+} */
 
 .project img {
   width: 100%;
@@ -232,7 +233,7 @@ body.dark-mode {
   background-color: #333;
   color: #fff;
 
-  a{
+  a, p{
     color:#fff;
   }
 }

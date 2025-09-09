@@ -1,5 +1,13 @@
 import { useState } from "react";
-import { Sun, Moon } from "lucide-react"
+// import { Sun, Moon } from "lucide-react"
+
+function Sun() {
+    return <div>Sun</div>
+}
+
+function Moon() {
+    return <div>Moon</div>
+}
 
 function ThemeToggle() {
     const [theme, setTheme] = useState(
