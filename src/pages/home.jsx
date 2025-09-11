@@ -11,86 +11,87 @@ function Home() {
   
 
   {/* Tech stack section */}
-  <section id="tech-stack" class="py-5 bg-light dark:bg-dark">
-    <div class="container text-center">
-      <h2 class="mb-4">My Tech Stack</h2>
-      <div class="row justify-content-center g-4">
-        
-        {/* <!-- Example for Python --> */}
-        <div class="col-4 col-md-2">
-          <i class="devicon-python-plain colored tech-icon"></i>
-          {/* <p class="mt-2">Python</p> */}
-        </div>
-
-        <div class="col-4 col-md-2">
-          <i class="devicon-tensorflow-original colored tech-icon"></i>
-          {/* <p class="mt-2">TensorFlow</p> */}
-        </div>
-
-        <div class="col-4 col-md-2">
-          <i class="devicon-pytorch-original colored tech-icon"></i>
-          {/* <p class="mt-2">PyTorch</p> */}
-        </div>
-
-        <div class="col-4 col-md-2">
-          <i class="devicon-selenium-original colored tech-icon"></i>
-          {/* <p class="mt-2">Selenium</p> */}
-        </div>
-
-        <div class="col-4 col-md-2">
-          <i class="devicon-django-plain colored tech-icon"></i>
-          {/* <p class="mt-2">Django</p> */}
-        </div>
-
-        <div class="col-4 col-md-2">
-          <i class="devicon-react-original colored tech-icon"></i>
-          {/* <p class="mt-2">React</p> */}
-        </div>
-
-        <div class="col-4 col-md-2">
-          <i class="devicon-nextjs-plain colored tech-icon"></i>
-          {/* <p class="mt-2">Next.js</p> */}
-        </div>
-
-        <div class="col-4 col-md-2">
-          <i class="devicon-bootstrap-plain colored tech-icon"></i>
-          {/* <p class="mt-2">Bootstrap</p> */}
-        </div>
-
-        <div class="col-4 col-md-2">
-          <i class="devicon-tailwindcss-original colored tech-icon"></i>
-          {/* <p class="mt-2">Tailwind</p> */}
-        </div>
-
-        <div class="col-4 col-md-2">
-          <i class="devicon-fastapi-plain colored tech-icon"></i>
-          {/* <p class="mt-2">FastAPI</p> */}
-        </div>
-
-        <div class="col-4 col-md-2">
-          <i class="devicon-javascript-plain colored tech-icon"></i>
-          {/* <p class="mt-2">JavaScript</p> */}
-        </div>
-
-        <div class="col-4 col-md-2">
-          <i class="devicon-typescript-plain colored tech-icon"></i>
-          {/* <p class="mt-2">TypeScript</p> */}
-        </div>
-
-        <div class="col-4 col-md-2">
-          <i class="devicon-c-plain colored tech-icon"></i>
-          {/* <p class="mt-2">C</p> */}
-        </div>
-
+  <section id="tech-stack" className="py-5 ">
+  <div className="container text-center">
+    <h2 className="mb-4 blue-green" data-aos="fade-down" data-aos-delay="200">Power Tools</h2>
+    <div className="row justify-content-center g-4">
+      
+      <div className="col-6 col-md-4 col-lg-2" data-aos="fade-up" >
+        <i className="devicon-python-plain colored tech-icon"></i>
+        {/* <p className="mt-2">Python</p> */}
       </div>
+
+      <div className="col-6 col-md-4 col-lg-2" data-aos="fade-up" data-aos-delay="200">
+        <i className="devicon-tensorflow-original colored tech-icon"></i>
+        {/* <p className="mt-2">TensorFlow</p> */}
+      </div>
+
+      <div className="col-6 col-md-4 col-lg-2" data-aos="fade-up" data-aos-delay="300">
+        <i className="devicon-pytorch-original colored tech-icon"></i>
+        {/* <p className="mt-2">PyTorch</p> */}
+      </div>
+
+      <div className="col-6 col-md-4 col-lg-2" data-aos="fade-up" data-aos-delay="400">
+        <i className="devicon-selenium-original colored tech-icon"></i>
+        {/* <p className="mt-2">Selenium</p> */}
+      </div>
+
+      <div className="col-6 col-md-4 col-lg-2" data-aos="fade-up" data-aos-delay="500">
+        <i className="devicon-django-plain colored tech-icon"></i>
+        {/* <p className="mt-2">Django</p> */}
+      </div>
+
+      <div className="col-6 col-md-4 col-lg-2" data-aos="fade-up" data-aos-delay="600">
+        <i className="devicon-react-original colored tech-icon"></i>
+        {/* <p className="mt-2">React</p> */}
+      </div>
+
+      <div className="col-6 col-md-4 col-lg-2" data-aos="fade-up" data-aos-delay="700">
+        <i className="devicon-nextjs-plain colored tech-icon"></i>
+        {/* <p className="mt-2">Next.js</p> */}
+      </div>
+
+      <div className="col-6 col-md-4 col-lg-2" data-aos="fade-up" data-aos-delay="800">
+        <i className="devicon-bootstrap-plain colored tech-icon"></i>
+        {/* <p className="mt-2">Bootstrap</p> */}
+      </div>
+
+      <div className="col-6 col-md-4 col-lg-2" data-aos="fade-up" data-aos-delay="900">
+        <i className="devicon-tailwindcss-original colored tech-icon"></i>
+        {/* <p className="mt-2">Tailwind</p> */}
+      </div>
+
+      <div className="col-6 col-md-4 col-lg-2" data-aos="fade-up" data-aos-delay="1000">
+        <i className="devicon-fastapi-plain colored tech-icon"></i>
+        {/* <p className="mt-2">FastAPI</p> */}
+      </div>
+
+      <div className="col-6 col-md-4 col-lg-2" data-aos="fade-up" data-aos-delay="1100">
+        <i className="devicon-javascript-plain colored tech-icon"></i>
+        {/* <p className="mt-2">JavaScript</p> */}
+      </div>
+
+      <div className="col-6 col-md-4 col-lg-2" data-aos="fade-up" data-aos-delay="1200">
+        <i className="devicon-typescript-plain colored tech-icon"></i>
+        {/* <p className="mt-2">TypeScript</p> */}
+      </div>
+
+      <div className="col-6 col-md-4 col-lg-2" data-aos="fade-up" data-aos-delay="1300">
+        <i className="devicon-c-plain colored tech-icon"></i>
+        {/* <p className="mt-2">C</p> */}
+      </div>
+
     </div>
-  </section>
+  </div>
+</section>
+
+
 
 
 
   {/* <!-- Projects Section --> */}
   <section id="projects" className="container pt-5 mt-5">
-    <h2>Projects</h2>
+    <h2 className="blue-green">Projects</h2>
     <div className="project-grid">
       {/* <!-- Project Item --> */}
       <div className="project-card"
@@ -125,7 +126,7 @@ function Home() {
 
   {/* <!-- About Section --> */}
   <section id="about" className="container pt-5 mt-5">
-    <h2>About Me</h2>
+    <h2 className="blue-green">About Me</h2>
     <p>I consider myself a passionate web developer, python engineer and GIS analyst with a passion for building 
       intelligent, data-driven applications.</p>
     <h3>My journey</h3>
