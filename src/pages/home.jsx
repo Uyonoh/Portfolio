@@ -10,6 +10,84 @@ function Home() {
   </section>
   
 
+  {/* Tech stack section */}
+  <section id="tech-stack" class="py-5 bg-light dark:bg-dark">
+    <div class="container text-center">
+      <h2 class="mb-4">My Tech Stack</h2>
+      <div class="row justify-content-center g-4">
+        
+        {/* <!-- Example for Python --> */}
+        <div class="col-4 col-md-2">
+          <i class="devicon-python-plain colored tech-icon"></i>
+          {/* <p class="mt-2">Python</p> */}
+        </div>
+
+        <div class="col-4 col-md-2">
+          <i class="devicon-tensorflow-original colored tech-icon"></i>
+          {/* <p class="mt-2">TensorFlow</p> */}
+        </div>
+
+        <div class="col-4 col-md-2">
+          <i class="devicon-pytorch-original colored tech-icon"></i>
+          {/* <p class="mt-2">PyTorch</p> */}
+        </div>
+
+        <div class="col-4 col-md-2">
+          <i class="devicon-selenium-original colored tech-icon"></i>
+          {/* <p class="mt-2">Selenium</p> */}
+        </div>
+
+        <div class="col-4 col-md-2">
+          <i class="devicon-django-plain colored tech-icon"></i>
+          {/* <p class="mt-2">Django</p> */}
+        </div>
+
+        <div class="col-4 col-md-2">
+          <i class="devicon-react-original colored tech-icon"></i>
+          {/* <p class="mt-2">React</p> */}
+        </div>
+
+        <div class="col-4 col-md-2">
+          <i class="devicon-nextjs-plain colored tech-icon"></i>
+          {/* <p class="mt-2">Next.js</p> */}
+        </div>
+
+        <div class="col-4 col-md-2">
+          <i class="devicon-bootstrap-plain colored tech-icon"></i>
+          {/* <p class="mt-2">Bootstrap</p> */}
+        </div>
+
+        <div class="col-4 col-md-2">
+          <i class="devicon-tailwindcss-original colored tech-icon"></i>
+          {/* <p class="mt-2">Tailwind</p> */}
+        </div>
+
+        <div class="col-4 col-md-2">
+          <i class="devicon-fastapi-plain colored tech-icon"></i>
+          {/* <p class="mt-2">FastAPI</p> */}
+        </div>
+
+        <div class="col-4 col-md-2">
+          <i class="devicon-javascript-plain colored tech-icon"></i>
+          {/* <p class="mt-2">JavaScript</p> */}
+        </div>
+
+        <div class="col-4 col-md-2">
+          <i class="devicon-typescript-plain colored tech-icon"></i>
+          {/* <p class="mt-2">TypeScript</p> */}
+        </div>
+
+        <div class="col-4 col-md-2">
+          <i class="devicon-c-plain colored tech-icon"></i>
+          {/* <p class="mt-2">C</p> */}
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+
   {/* <!-- Projects Section --> */}
   <section id="projects" className="container pt-5 mt-5">
     <h2>Projects</h2>
