@@ -3,7 +3,7 @@
 ![Portfolio Screenshot](screenshot.png) <!-- Add a screenshot of your site -->
 
 ## 🚀 About the Project
-This is my personal **portfolio website** built using **React, jQuery, and Bootstrap**. It showcases my skills, projects, and contact information.
+This is my personal **portfolio website** built using **React and Bootstrap**. It showcases my skills, projects, and contact information.
 
 ## 🛠️ Tech Stack
 - **React** - Frontend framework for building UI components

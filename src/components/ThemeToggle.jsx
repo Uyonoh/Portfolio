@@ -1,13 +1,5 @@
 import { useState } from "react";
-// import { Sun, Moon } from "lucide-react"
-
-function Sun() {
-    return <div>Sun</div>
-}
-
-function Moon() {
-    return <div>Moon</div>
-}
+import { Sun, Moon } from "lucide-react"
 
 function ThemeToggle() {
     const [theme, setTheme] = useState(
@@ -23,7 +15,7 @@ function ThemeToggle() {
   return<div>
         <button id="darkModeToggle" type="button" className="btn btn-outline-primary me-2"
         onClick={toggleDarkMode}>
-            {theme ? (
+            {!theme ? (
                 <Sun className="h-6 w-6 text-yellow-400" />
             ) : (
                 <Moon className="h-6 w-6 text-blue-500" />

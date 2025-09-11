@@ -34,7 +34,7 @@ function Home() {
       onClick={() => window.open("https://github.com/uyonoh/Cover-Letter-LLM", "_blank")}>
         <img src="/assets/images/projects/letter.jpg" alt="Project 4" /> 
         {/* <a href="https://www.freepik.com/free-vector/gradient-network-connection-background_12704532.htm">Image by freepik</a> */}
-        <p>Cover Letter Using LLMs</p>
+        <p>AI Assisted Cover Letters</p>
       </div>
       <div className="project-card"
       onClick={() => window.open("https://github.com/uyonoh", "_blank")}>
@@ -48,7 +48,7 @@ function Home() {
   {/* <!-- About Section --> */}
   <section id="about" className="container pt-5 mt-5">
     <h2>About Me</h2>
-    <p>I consider myself a passionate web developer, python engineer and GIS engineer with a passion for building 
+    <p>I consider myself a passionate web developer, python engineer and GIS analyst with a passion for building 
       intelligent, data-driven applications.</p>
     <h3>My journey</h3>
     <p>While taking my first degree in Surveying and Geo-informatics, I honed my skills in spatial data analysis and visualization.
