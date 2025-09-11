@@ -131,7 +131,7 @@ function Home() {
 
   {/* <!-- About Section --> */}
   <section id="about" className="container pt-5 mt-5"
-  data-aos="fade-left"
+  data-aos="zoom-in-up"
   data-aos-offset="10"
   data-aos-delay="200"
   data-aos-duration="1000"
