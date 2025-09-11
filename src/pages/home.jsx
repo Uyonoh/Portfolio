@@ -17,7 +17,7 @@ function Home() {
     <div className="row justify-content-center g-4">
       
       <div className="col-6 col-md-4 col-lg-2" data-aos="fade-up" >
-        <i className="devicon-python-plain colored tech-icon"></i>
+        <img className="tech-icon" alt="python" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" />
         {/* <p className="mt-2">Python</p> */}
       </div>
 
@@ -90,7 +90,12 @@ function Home() {
 
 
   {/* <!-- Projects Section --> */}
-  <section id="projects" className="container pt-5 mt-5">
+  <section id="projects" className="container pt-5 mt-5"
+  data-aos="fade-right"
+  data-aos-offset="10"
+  data-aos-delay="200"
+  data-aos-duration="1000"
+  >
     <h2 className="blue-green">Projects</h2>
     <div className="project-grid">
       {/* <!-- Project Item --> */}
@@ -125,7 +130,12 @@ function Home() {
   </section>
 
   {/* <!-- About Section --> */}
-  <section id="about" className="container pt-5 mt-5">
+  <section id="about" className="container pt-5 mt-5"
+  data-aos="fade-left"
+  data-aos-offset="10"
+  data-aos-delay="200"
+  data-aos-duration="1000"
+  >
     <h2 className="blue-green">About Me</h2>
     <p>I consider myself a passionate web developer, python engineer and GIS analyst with a passion for building 
       intelligent, data-driven applications.</p>
