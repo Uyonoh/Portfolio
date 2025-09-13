@@ -101,13 +101,13 @@ function Home() {
       {/* <!-- Project Item --> */}
       <div className="project-card"
       onClick={() => window.open("https://github.com/uyonoh/portfolio", "_blank")}>
-        <img src="/assets/images/projects/portfolio.jpg" alt="Project 1" />
-        <p>Portfolio</p>
+        <img src="/assets/images/projects/Ai_flow_429x200.jpg" alt="AI Flow" />
+        <p>AI Flow</p>
       </div>
       <div className="project-card"
       onClick={() => window.open("https://github.com/uyonoh/quiz-app", "_blank")}>
-        <img src="/assets/images/projects/quiz_app.png" alt="Trivia Web App" />
-        <p>Trivia Web App</p>
+        <img src="/assets/images/projects/meditrack_322x200.jpg" alt="Trivia Web App" />
+        <p>MediTrack</p>
       </div>
       <div className="project-card"
       onClick={() => window.open("https://github.com/uyonoh/Nexus", "_blank")}>
