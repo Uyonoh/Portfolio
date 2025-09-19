@@ -3,7 +3,10 @@ function Home() {
         <div>
             {/* <!-- Home Section --> */}
   <section id="home" className="hero">
-    <h1>Hello, <br /> I'm Uyonoh, a Web Developer & Python Engineer</h1>
+    <div className="profile">
+      <img id="profile-pic" src="/assets/images/profile/profile.jpg" alt="" />
+    </div>
+    <h1>Hello, I'm Uyonoh<br /> A Web Developer , Python Engineer <br /> & GIS Analyst</h1>
     <p className="blue-green text-center">Building the future with code and innovation.</p>
     <button onClick={() => window.location.href='#projects'}>My Work</button>
     <button className="button outline" onClick={() => window.location.href='#footer'}>Get in Touch</button>
@@ -48,6 +51,11 @@ function Home() {
 
       <div className="col-6 col-md-4 col-lg-2" data-aos="fade-up" data-aos-delay="700">
         <i className="devicon-nextjs-plain colored tech-icon"></i>
+        {/* <p className="mt-2">Next.js</p> */}
+      </div>
+
+      <div className="col-6 col-md-4 col-lg-2" data-aos="fade-up" data-aos-delay="700">
+        <i className="devicon-vite-plain colored tech-icon"></i>
         {/* <p className="mt-2">Next.js</p> */}
       </div>
 
@@ -100,13 +108,13 @@ function Home() {
     <div className="project-grid">
       {/* <!-- Project Item --> */}
       <div className="project-card"
-      onClick={() => window.open("https://github.com/uyonoh/portfolio", "_blank")}>
-        <img src="/assets/images/projects/Ai_flow_429x200.jpg" alt="AI Flow" />
-        <p>AI Flow</p>
+      onClick={() => window.open("https://github.com/uyonoh/DailyCrumb", "_blank")}>
+        <img src="/assets/images/projects/dailycrumb_275_200.jpg" alt="The Daily Crumb" />
+        <p>The Daily Crumb</p>
       </div>
       <div className="project-card"
-      onClick={() => window.open("https://github.com/uyonoh/quiz-app", "_blank")}>
-        <img src="/assets/images/projects/meditrack_322x200.jpg" alt="Trivia Web App" />
+      onClick={() => window.open("https://github.com/uyonoh/MediTrack", "_blank")}>
+        <img src="/assets/images/projects/meditrack_322x200.jpg" alt="MediTrack pharmacy dashboard" />
         <p>MediTrack</p>
       </div>
       <div className="project-card"
@@ -119,6 +127,11 @@ function Home() {
         <img src="/assets/images/projects/letter.jpg" alt="Project 4" /> 
         {/* <a href="https://www.freepik.com/free-vector/gradient-network-connection-background_12704532.htm">Image by freepik</a> */}
         <p>AI Assisted Cover Letters</p>
+      </div>
+      <div className="project-card"
+      >
+        <img src="/assets/images/projects/Ai_flow_429x200.jpg" alt="AI Flow" />
+        <p>AI Flow</p>
       </div>
       <div className="project-card"
       onClick={() => window.open("https://github.com/uyonoh", "_blank")}>

@@ -1,7 +1,7 @@
 import ThemeToggle from "./ThemeToggle"
 
 function Header() {
-  const blogLink = process.env.REACT_APP_BLOG_LINK || "https://blog-uyonoh.onrender.com";
+  const blogLink = "#" //process.env.REACT_APP_BLOG_LINK || "https://blog-uyonoh.onrender.com";
 
   
     return(

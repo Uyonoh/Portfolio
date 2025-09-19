@@ -1,6 +1,6 @@
 # Portfolio Website
 
-![Portfolio Screenshot](screenshot.png) <!-- Add a screenshot of your site -->
+![Portfolio Screenshot](public/images/screenshot.png)
 
 ## 🚀 About the Project
 This is my personal **portfolio website** built using **React and Bootstrap**. It showcases my skills, projects, and contact information.
@@ -14,11 +14,6 @@ This is my personal **portfolio website** built using **React and Bootstrap**. I
 - **💼 Projects** - Display of past and ongoing projects
 - **📞 Contact** - Email and social media links
 - **🎨 Responsive Design** - Works on all screen sizes
-- **✨ Smooth Animations** - jQuery-powered UI enhancements
-
-
-
-
-Made with  by Uyonoh
+- **✨ Smooth Animations** - Animated UI components
 
 
