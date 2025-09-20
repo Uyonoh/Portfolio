@@ -6,7 +6,7 @@ function Home() {
     <div className="profile">
       <img id="profile-pic" src="/assets/images/profile/profile.jpg" alt="" />
     </div>
-    <h1>Hello, I'm Uyonoh<br /> A Web Developer , Python Engineer <br /> & GIS Analyst</h1>
+    <h1> <span className="">Hello, I'm Uyonoh</span> <br /> A Web Developer , Python Engineer <br /> & GIS Analyst</h1>
     <p className="blue-green text-center">Building the future with code and innovation.</p>
     <button onClick={() => window.location.href='#projects'}>My Work</button>
     <button className="button outline" onClick={() => window.location.href='#footer'}>Get in Touch</button>
@@ -150,17 +150,17 @@ function Home() {
   data-aos-duration="1000"
   >
     <h2 className="blue-green">About Me</h2>
-    <p>I consider myself a passionate web developer, python engineer and GIS analyst with a passion for building 
+    <p>I am a passionate web developer, python engineer and GIS analyst with a passion for building 
       intelligent, data-driven applications.</p>
     <h3>My journey</h3>
     <p>While taking my first degree in Surveying and Geo-informatics, I honed my skills in spatial data analysis and visualization.
-      Emmersed in my love for pogramming, I expanded my expertise to Python programming, machine leaning and web development, allowing me to bridge the gap between geospatial data and AI powered solutions.
+      Immersed in my love for programming, I expanded my expertise to Python programming, machine learning and web development, allowing me to bridge the gap between geospatial data and AI powered solutions.
       I eventually got into the C programming language to further my understanding of programming and computer fundamentals and memory management.
     </p>
     <p>Throughout my journey, I have worked on projects ranging from building footprint extraction using Mask-RCNN
       to developing automated data pipelines and deploying full-stack web applications.
     </p>
-    <p>I now have expirience with technologies like Django, React, PostgreSQL, Tensorflow, and cloud deployment platforms.
+    <p>I now have experience with technologies like Django, React, PostgreSQL, Tensorflow, and cloud deployment platforms.
       Whether it's optimizing geospatial workflows, creating dynamic web applications, or training AI models,
       I thrive on solving complex problems and building scalable, impactful solutions.
     </p>
