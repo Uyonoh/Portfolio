@@ -107,6 +107,11 @@ function Home() {
     <h2 className="blue-green">Projects</h2>
     <div className="project-grid">
       {/* <!-- Project Item --> */}
+       <div className="project-card"
+      onClick={() => window.open("https://cover-letter-llm.vercel.app/", "_blank")}>
+        <img src="/assets/images/projects/cover_letter_ai.png" alt="Cover Letter AI" /> 
+        <p>Cover Letter AI</p>
+      </div>
       <div className="project-card"
       onClick={() => window.open("https://github.com/uyonoh/DailyCrumb", "_blank")}>
         <img src="/assets/images/projects/dailycrumb_275_200.jpg" alt="The Daily Crumb" />
@@ -121,12 +126,6 @@ function Home() {
       onClick={() => window.open("https://github.com/uyonoh/Nexus", "_blank")}>
         <img src="/assets/images/projects/nexus.png" alt="Tech Nexus Eccomerce Platform" />
         <p>Tech Nexus Eccommerce</p>
-      </div>
-      <div className="project-card"
-      onClick={() => window.open("https://github.com/uyonoh/Cover-Letter-LLM", "_blank")}>
-        <img src="/assets/images/projects/letter.jpg" alt="Project 4" /> 
-        {/* <a href="https://www.freepik.com/free-vector/gradient-network-connection-background_12704532.htm">Image by freepik</a> */}
-        <p>AI Assisted Cover Letters</p>
       </div>
       <div className="project-card"
       >
