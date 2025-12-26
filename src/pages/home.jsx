@@ -113,7 +113,7 @@ function Home() {
         <ProjectGrid />
       </section>
 
-      {/* <!-- About Section --> */}
+      {/* <!-- About Section -->
       <section
         id="about"
         className="container pt-5 mt-5"
@@ -149,7 +149,7 @@ function Home() {
           training AI models, I thrive on solving complex problems and building
           scalable, impactful solutions.
         </p>
-      </section>
+      </section> */}
     </>
   );
 }
