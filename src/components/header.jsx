@@ -22,7 +22,7 @@ function Header() {
             <ul className="navbar-nav me-auto mb-2 mb-lg-0 text-start text-lg-center">
               <li><a href="#projects" className="blue-green nav-link px-2">Projects</a></li>
               <li><a href={blogLink} className="blue-green nav-link px-2">Blog</a></li>
-              <li><a href="#about" className="blue-green nav-link px-2">About</a></li>
+              {/* <li><a href="#about" className="blue-green nav-link px-2">About</a></li> */}
               <li><a href="#footer" className="blue-green nav-link px-2">Contact</a></li>
             </ul>
           </div>

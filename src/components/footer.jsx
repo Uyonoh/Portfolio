@@ -4,7 +4,7 @@ function Footer() {
     const mail = "mailto:turakiuyonoh@gmail.com";
     const github = "https://github.com/uyonoh";
     const x = "https://x.com/uyonoh";
-    const linkedin = "www.linkedin.com/in/uyonoh-turaki-232a97168";
+    const linkedin = "www.linkedin.com/in/uyonoh/";
     
     return (
         <footer id="footer" className="d-flex flex-wrap justify-content-between align-items-center py-3 border-top">
@@ -12,7 +12,7 @@ function Footer() {
                 <span>place</span>
             </div> */}
             <div className="col-md-4 d-flex align-items-center">
-            <span className="mb-3 mb-md-0">© {year} Uyonoh</span>
+            <span className="mb-3 mb-md-0">{year} Uyonoh</span>
             </div>
 
             <ul className="nav col-md-4 justify-content-end list-unstyled d-flex">
