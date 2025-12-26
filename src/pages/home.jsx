@@ -1,3 +1,6 @@
+import TechGrid from "../components/TechGrid";
+import ProjectGrid from "../components/ProjectGrid";
+
 function Home() {
   return (
     <>
@@ -92,133 +95,8 @@ function Home() {
           >
             Power Tools
           </h2>
-          <div className="row justify-content-center g-4">
-            <div className="col-6 col-md-4 col-lg-2" data-aos="fade-up">
-              <img
-                className="tech-icon"
-                alt="python"
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg"
-              />
-              {/* <p className="mt-2">Python</p> */}
-            </div>
 
-            <div
-              className="col-6 col-md-4 col-lg-2"
-              data-aos="fade-up"
-              data-aos-delay="200"
-            >
-              <i className="devicon-tensorflow-original colored tech-icon"></i>
-              {/* <p className="mt-2">TensorFlow</p> */}
-            </div>
-
-            <div
-              className="col-6 col-md-4 col-lg-2"
-              data-aos="fade-up"
-              data-aos-delay="300"
-            >
-              <i className="devicon-pytorch-original colored tech-icon"></i>
-              {/* <p className="mt-2">PyTorch</p> */}
-            </div>
-
-            <div
-              className="col-6 col-md-4 col-lg-2"
-              data-aos="fade-up"
-              data-aos-delay="400"
-            >
-              <i className="devicon-selenium-original colored tech-icon"></i>
-              {/* <p className="mt-2">Selenium</p> */}
-            </div>
-
-            <div
-              className="col-6 col-md-4 col-lg-2"
-              data-aos="fade-up"
-              data-aos-delay="500"
-            >
-              <i className="devicon-django-plain colored tech-icon"></i>
-              {/* <p className="mt-2">Django</p> */}
-            </div>
-
-            <div
-              className="col-6 col-md-4 col-lg-2"
-              data-aos="fade-up"
-              data-aos-delay="600"
-            >
-              <i className="devicon-react-original colored tech-icon"></i>
-              {/* <p className="mt-2">React</p> */}
-            </div>
-
-            <div
-              className="col-6 col-md-4 col-lg-2"
-              data-aos="fade-up"
-              data-aos-delay="700"
-            >
-              <i className="devicon-nextjs-plain colored tech-icon"></i>
-              {/* <p className="mt-2">Next.js</p> */}
-            </div>
-
-            <div
-              className="col-6 col-md-4 col-lg-2"
-              data-aos="fade-up"
-              data-aos-delay="700"
-            >
-              <i className="devicon-vite-plain colored tech-icon"></i>
-              {/* <p className="mt-2">Next.js</p> */}
-            </div>
-
-            <div
-              className="col-6 col-md-4 col-lg-2"
-              data-aos="fade-up"
-              data-aos-delay="800"
-            >
-              <i className="devicon-bootstrap-plain colored tech-icon"></i>
-              {/* <p className="mt-2">Bootstrap</p> */}
-            </div>
-
-            <div
-              className="col-6 col-md-4 col-lg-2"
-              data-aos="fade-up"
-              data-aos-delay="900"
-            >
-              <i className="devicon-tailwindcss-original colored tech-icon"></i>
-              {/* <p className="mt-2">Tailwind</p> */}
-            </div>
-
-            <div
-              className="col-6 col-md-4 col-lg-2"
-              data-aos="fade-up"
-              data-aos-delay="1000"
-            >
-              <i className="devicon-fastapi-plain colored tech-icon"></i>
-              {/* <p className="mt-2">FastAPI</p> */}
-            </div>
-
-            <div
-              className="col-6 col-md-4 col-lg-2"
-              data-aos="fade-up"
-              data-aos-delay="1100"
-            >
-              <i className="devicon-javascript-plain colored tech-icon"></i>
-              {/* <p className="mt-2">JavaScript</p> */}
-            </div>
-
-            <div
-              className="col-6 col-md-4 col-lg-2"
-              data-aos="fade-up"
-              data-aos-delay="1200"
-            >
-              <i className="devicon-typescript-plain colored tech-icon"></i>
-              {/* <p className="mt-2">TypeScript</p> */}
-            </div>
-
-            <div
-              className="col-6 col-md-4 col-lg-2"
-              data-aos="fade-up"
-              data-aos-delay="1300"
-            >
-              <i className="devicon-c-plain colored tech-icon"></i>
-              {/* <p className="mt-2">C</p> */}
-            </div>
-          </div>
+          <TechGrid />
         </div>
       </section>
 
@@ -232,72 +110,7 @@ function Home() {
         data-aos-duration="1000"
       >
         <h2 className="blue-green">Projects</h2>
-        <div className="project-grid">
-          {/* <!-- Project Item --> */}
-          <div
-            className="project-card"
-            onClick={() =>
-              window.open("https://cover-letter-llm.vercel.app/", "_blank")
-            }
-          >
-            <img
-              src="/assets/images/projects/cover_letter_ai.png"
-              alt="Cover Letter AI"
-            />
-            <p>Cover Letter AI</p>
-          </div>
-          <div
-            className="project-card"
-            onClick={() =>
-              window.open("https://github.com/uyonoh/DailyCrumb", "_blank")
-            }
-          >
-            <img
-              src="/assets/images/projects/dailycrumb_275_200.jpg"
-              alt="The Daily Crumb"
-            />
-            <p>The Daily Crumb</p>
-          </div>
-          <div
-            className="project-card"
-            onClick={() =>
-              window.open("https://github.com/uyonoh/MediTrack", "_blank")
-            }
-          >
-            <img
-              src="/assets/images/projects/meditrack_322x200.jpg"
-              alt="MediTrack pharmacy dashboard"
-            />
-            <p>MediTrack</p>
-          </div>
-          <div
-            className="project-card"
-            onClick={() =>
-              window.open("https://github.com/uyonoh/Nexus", "_blank")
-            }
-          >
-            <img
-              src="/assets/images/projects/nexus.png"
-              alt="Tech Nexus Eccomerce Platform"
-            />
-            <p>Tech Nexus Eccommerce</p>
-          </div>
-          <div className="project-card">
-            <img
-              src="/assets/images/projects/Ai_flow_429x200.jpg"
-              alt="AI Flow"
-            />
-            <p>AI Flow</p>
-          </div>
-          <div
-            className="project-card"
-            onClick={() => window.open("https://github.com/uyonoh", "_blank")}
-          >
-            <img src="/assets/images/logos/github.png" alt="Git Hub" />
-            <p>More from me...</p>
-          </div>
-          {/* <!-- Repeat for more projects --> */}
-        </div>
+        <ProjectGrid />
       </section>
 
       {/* <!-- About Section --> */}
