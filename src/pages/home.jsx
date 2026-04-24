@@ -1,61 +1,49 @@
+import { Helmet } from "react-helmet-async";
 import TechGrid from "../components/TechGrid";
 import ProjectGrid from "../components/ProjectGrid";
 
 function Home() {
+  const schemaData = {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Uyonoh",
+    "url": "https://www.uyonoh.com/",
+    "jobTitle": "Full-Stack Web Developer, Python Engineer & GIS Analyst",
+    "description": "A passionate Full-Stack Web Developer, Python Engineer, and GIS Analyst building intelligent, data-driven applications.",
+    "sameAs": [
+      "https://github.com/uyonoh",
+      "https://x.com/uyonoh",
+      "https://www.linkedin.com/in/uyonoh/"
+    ]
+  };
+
   return (
     <>
-      {/* =========================================================
-        COMPLETE METADATA BLOCK FOR UYONOH'S PORTFOLIO (REACT 19)
-        =========================================================
-    */}
-      <title>
-        Uyonoh's Portfolio | Web Developer, Python Engineer & GIS Analyst
-      </title>
-      <meta charset="utf-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <meta
-        name="description"
-        content="A passionate Full-Stack Web Developer, Python Engineer, and GIS Analyst building intelligent, data-driven applications. Portfolio includes AI, ML, and geospatial projects."
-      />
-      <meta name="author" content="Uyonoh" />
-      <meta name="robots" content="index, follow" />
-      <meta name="theme-color" content="#0d458fff" />
-      {/* Adjust the theme-color hex code to match your primary portfolio color */}
+      <Helmet>
+        <title>Uyonoh's Portfolio | Web Developer, Python Engineer & GIS Analyst</title>
+        <meta name="description" content="A passionate Full-Stack Web Developer, Python Engineer, and GIS Analyst building intelligent, data-driven applications. Portfolio includes AI, ML, and geospatial projects." />
+        <meta name="author" content="Uyonoh" />
+        <link rel="canonical" href="https://www.uyonoh.com/" />
+        
+        {/* Open Graph */}
+        <meta property="og:title" content="Uyonoh's Full-Stack & GIS Portfolio" />
+        <meta property="og:description" content="Building the future with code and innovation: Python, React, Django, ML, and Geospatial solutions." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.uyonoh.com/" />
+        <meta property="og:image" content="https://uyonoh.com/assets/images/projects/portfolio.png" />
+        
+        {/* Twitter */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Uyonoh's Full-Stack & GIS Portfolio" />
+        <meta name="twitter:description" content="Building the future with code and innovation: Python, React, Django, ML, and Geospatial solutions." />
+        <meta name="twitter:image" content="https://uyonoh.com/assets/images/projects/portfolio-dark.png" />
+        <meta name="twitter:creator" content="@uyonoh" />
 
-      {/* === Open Graph (Facebook, LinkedIn, general social sharing) === */}
-      <meta property="og:title" content="Uyonoh's Full-Stack & GIS Portfolio" />
-      <meta
-        property="og:description"
-        content="Building the future with code and innovation: Python, React, Django, ML, and Geospatial solutions."
-      />
-      <meta property="og:type" content="website" />
-      <meta property="og:url" content="https://www.uyonoh.com/" />
-      <meta
-        property="og:image"
-        content="https://uyonoh.com/assets/images/projects/portfolio.png"
-      />
-      {/* Ensure the OG Image link is a direct, public URL to a high-quality image (1200x630px recommended) */}
-
-      {/* === Twitter Card Tags === */}
-      <meta name="twitter:card" content="summary_large_image" />
-      <meta
-        name="twitter:title"
-        content="Uyonoh's Full-Stack & GIS Portfolio"
-      />
-      <meta
-        name="twitter:description"
-        content="Building the future with code and innovation: Python, React, Django, ML, and Geospatial solutions."
-      />
-      <meta
-        name="twitter:image"
-        content="https://uyonoh.com/assets/images/projects/portfolio-dark.png"
-      />
-      <meta name="twitter:creator" content="@uyonoh" />
-
-      {/* =========================================================
-        END OF METADATA BLOCK
-        =========================================================
-    */}
+        {/* Structured Data */}
+        <script type="application/ld+json">
+          {JSON.stringify(schemaData)}
+        </script>
+      </Helmet>
 
       {/* <!-- Home Section --> */}
       <section id="home" className="hero">
@@ -63,7 +51,11 @@ function Home() {
           <img
             id="profile-pic"
             src="/assets/images/profile/profile.jpg"
-            alt=""
+            alt="Uyonoh - Web Developer & GIS Analyst"
+            width="250"
+            height="250"
+            loading="eager"
+            style={{ borderRadius: '50%', objectFit: 'cover' }}
           />
         </div>
         <h1>
