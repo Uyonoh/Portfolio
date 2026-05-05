@@ -6,43 +6,63 @@ function Home() {
   const schemaData = {
     "@context": "https://schema.org",
     "@type": "Person",
-    "name": "Uyonoh",
-    "url": "https://www.uyonoh.com/",
-    "jobTitle": "Full-Stack Web Developer, Python Engineer & GIS Analyst",
-    "description": "A passionate Full-Stack Web Developer, Python Engineer, and GIS Analyst building intelligent, data-driven applications.",
-    "sameAs": [
+    name: "Uyonoh",
+    url: "https://www.uyonoh.com/",
+    jobTitle: "Full-Stack Web Developer, Python Engineer & GIS Analyst",
+    description:
+      "A passionate Full-Stack Web Developer, Python Engineer, and GIS Analyst building intelligent, data-driven applications.",
+    sameAs: [
       "https://github.com/uyonoh",
       "https://x.com/uyonoh",
-      "https://www.linkedin.com/in/uyonoh/"
-    ]
+      "https://www.linkedin.com/in/uyonoh/",
+    ],
   };
 
   return (
     <>
       <Helmet>
-        <title>Uyonoh's Portfolio | Web Developer, Python Engineer & GIS Analyst</title>
-        <meta name="description" content="A passionate Full-Stack Web Developer, Python Engineer, and GIS Analyst building intelligent, data-driven applications. Portfolio includes AI, ML, and geospatial projects." />
+        <title>Uyonoh | Web Developer, Python Engineer & GIS Analyst</title>
+        <meta
+          name="description"
+          content="A passionate Full-Stack Web Developer, Python Engineer, and GIS Analyst building intelligent, data-driven applications. Portfolio includes AI, ML, and geospatial projects."
+        />
         <meta name="author" content="Uyonoh" />
         <link rel="canonical" href="https://www.uyonoh.com/" />
-        
+
         {/* Open Graph */}
-        <meta property="og:title" content="Uyonoh's Full-Stack & GIS Portfolio" />
-        <meta property="og:description" content="Building the future with code and innovation: Python, React, Django, ML, and Geospatial solutions." />
+        <meta
+          property="og:title"
+          content="Uyonoh's Full-Stack & GIS Portfolio"
+        />
+        <meta
+          property="og:description"
+          content="Building the future with code and innovation: Python, React, Django, ML, and Geospatial solutions."
+        />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://www.uyonoh.com/" />
-        <meta property="og:image" content="https://uyonoh.com/assets/images/projects/portfolio.png" />
-        
+        <meta
+          property="og:image"
+          content="https://uyonoh.com/assets/images/projects/portfolio.png"
+        />
+
         {/* Twitter */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Uyonoh's Full-Stack & GIS Portfolio" />
-        <meta name="twitter:description" content="Building the future with code and innovation: Python, React, Django, ML, and Geospatial solutions." />
-        <meta name="twitter:image" content="https://uyonoh.com/assets/images/projects/portfolio-dark.png" />
+        <meta
+          name="twitter:title"
+          content="Uyonoh's Full-Stack & GIS Portfolio"
+        />
+        <meta
+          name="twitter:description"
+          content="Building the future with code and innovation: Python, React, Django, ML, and Geospatial solutions."
+        />
+        <meta
+          name="twitter:image"
+          content="https://uyonoh.com/assets/images/projects/portfolio-dark.png"
+        />
         <meta name="twitter:creator" content="@uyonoh" />
 
         {/* Structured Data */}
-        <script type="application/ld+json">
-          {JSON.stringify(schemaData)}
-        </script>
+        <script type="application/ld+json">{JSON.stringify(schemaData)}</script>
       </Helmet>
 
       {/* <!-- Home Section --> */}
@@ -55,7 +75,7 @@ function Home() {
             width="250"
             height="250"
             loading="eager"
-            style={{ borderRadius: '50%', objectFit: 'cover' }}
+            style={{ borderRadius: "50%", objectFit: "cover" }}
           />
         </div>
         <h1>
