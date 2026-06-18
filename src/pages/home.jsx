@@ -3,20 +3,29 @@ import TechGrid from "../components/TechGrid";
 import ProjectGrid from "../components/ProjectGrid";
 
 function Home() {
-  const schemaData = {
-    "@context": "https://schema.org",
-    "@type": "Person",
-    name: "Uyonoh",
-    url: "https://www.uyonoh.com/",
-    jobTitle: "Full-Stack Web Developer, Python Engineer & GIS Analyst",
-    description:
-      "A passionate Full-Stack Web Developer, Python Engineer, and GIS Analyst building intelligent, data-driven applications.",
-    sameAs: [
-      "https://github.com/uyonoh",
-      "https://x.com/uyonoh",
-      "https://www.linkedin.com/in/uyonoh/",
-    ],
-  };
+  const schemaData = [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      name: "Uyonoh",
+      alternateName: ["Uyonoh Portfolio", "Uyonoh's Portfolio"],
+      url: "https://www.uyonoh.com",
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      name: "Uyonoh",
+      url: "https://www.uyonoh.com",
+      jobTitle: "Full-Stack Web Developer, Python Engineer & GIS Analyst",
+      description:
+        "A passionate Full-Stack Web Developer, Python Engineer, and GIS Analyst...",
+      sameAs: [
+        "https://github.com/uyonoh",
+        "https://x.com/uyonoh",
+        "https://www.linkedin.com/in/uyonoh",
+      ],
+    },
+  ];
 
   return (
     <>
@@ -27,7 +36,7 @@ function Home() {
           content="A passionate Full-Stack Web Developer, Python Engineer, and GIS Analyst building intelligent, data-driven applications. Portfolio includes AI, ML, and geospatial projects."
         />
         <meta name="author" content="Uyonoh" />
-        <link rel="canonical" href="https://www.uyonoh.com/" />
+        <link rel="canonical" href="https://www.uyonoh.com" />
 
         {/* Open Graph */}
         <meta
@@ -39,7 +48,7 @@ function Home() {
           content="Building the future with code and innovation: Python, React, Django, ML, and Geospatial solutions."
         />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://www.uyonoh.com/" />
+        <meta property="og:url" content="https://www.uyonoh.com" />
         <meta
           property="og:image"
           content="https://uyonoh.com/assets/images/projects/portfolio.png"
