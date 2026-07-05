@@ -3,18 +3,18 @@
     xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://www.uyonoh.com/</loc>
-    <lastmod>2026-04-24</lastmod>
+    <lastmod>2026-07-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
     <image:image>
       <image:loc>https://www.uyonoh.com/assets/images/profile/profile.jpg</image:loc>
-      <image:title>uyonoh's profile</image:title>
+      <image:title>Uyonoh's profile</image:title>
       <image:family_friendly>yes</image:family_friendly>
     </image:image>
   </url>
   <url>
     <loc>https://www.blog.uyonoh.com</loc>
-    <lastmod>2026-04-24</lastmod>
+    <lastmod>2026-07-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
