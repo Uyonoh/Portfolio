@@ -47,5 +47,9 @@
   },
   "devDependencies": {
     "webpack": "^5.106.2"
+  },
+  "allowScripts": {
+    "core-js@3.41.0": true,
+    "core-js-pure@3.41.0": true
   }
 }
