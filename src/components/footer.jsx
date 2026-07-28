@@ -4,7 +4,7 @@ function Footer() {
     const mail = "mailto:turakiuyonoh@gmail.com";
     const github = "https://github.com/uyonoh";
     const x = "https://x.com/uyonoh";
-    const linkedin = "www.linkedin.com/in/uyonoh/";
+    const linkedin = "https://www.linkedin.com/in/uyonoh/";
     
     return (
         <footer id="footer" className="d-flex flex-wrap justify-content-between align-items-center py-3 border-top">
