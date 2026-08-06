@@ -77,28 +77,26 @@
     <!-- Structured Data -->
 
     <script type="application/ld+json">
-      [
-        {
-          "@context": "https://schema.org",
-          "@type": "WebSite",
-          "name": "Uyonoh",
-          "alternateName": ["Uyonoh's Portfolio", "Uyonoh - Portfolio"],
-          "url": "https://uyonoh.com/"
-        },
-        {
-          "@context": "https://schema.org",
-          "@type": "Person",
-          "name": "Uyonoh",
-          "url": "https://uyonoh.com/",
-          "jobTitle": "Full-Stack Web Developer, Python Engineer & GIS Analyst",
-          "description": "A passionate Full-Stack Web Developer, Python Engineer, and GIS Analyst building intelligent, data-driven applications.",
-          "sameAs": [
-            "https://github.com/uyonoh",
-            "https://x.com/uyonoh",
-            "https://www.linkedin.com/in/uyonoh"
-          ]
-        }
-      ]
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebSite",
+            "@id": "https://uyonoh.com/#website",
+            "name": "Uyonoh",
+            "alternateName": ["Uyonoh's Portfolio"],
+            "url": "https://uyonoh.com/",
+            "publisher": { "@id": "https://uyonoh.com/#person" }
+          },
+          {
+            "@type": "Person",
+            "@id": "https://uyonoh.com/#person",
+            "name": "Uyonoh",
+            "url": "https://uyonoh.com/",
+            "jobTitle": "Full-Stack Web Developer, Python Engineer & GIS Analyst"
+          }
+        ]
+      }
     </script>
   </head>
   <body>
