@@ -23,6 +23,7 @@ function Home() {
         "https://github.com/uyonoh",
         "https://x.com/uyonoh",
         "https://www.linkedin.com/in/uyonoh",
+        "https://www.facebook.com/uyonoh.turaki/",
       ],
     },
   ]; */
