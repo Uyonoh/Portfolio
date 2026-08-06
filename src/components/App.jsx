@@ -1,7 +1,7 @@
 // import logo from './logo.svg';
 // import './App.css';
 
-import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 import Header from './header';
 import Footer from './footer';
@@ -33,9 +33,8 @@ import Auth from '../pages/Auth';
 // }
 
 function App() {
-  
   return (
-    <div className='flex-col'>
+    <div className="flex-col">
       <Header />
       <Router>
         <Routes>
@@ -44,13 +43,12 @@ function App() {
           <Route path="/blog" element={<NoBlog />} />
           <Route path="/blog/:slug" element={<Post />} />
           <Route path="/blog/new" element={<PostForm />} />
-
         </Routes>
       </Router>
-      
+
       <Footer />
     </div>
-  )
+  );
 }
 
 export default App;

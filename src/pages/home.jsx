@@ -1,6 +1,6 @@
 // import { Helmet } from "react-helmet-async";
-import TechGrid from "../components/TechGrid";
-import ProjectGrid from "../components/ProjectGrid";
+import TechGrid from '../components/TechGrid';
+import ProjectGrid from '../components/ProjectGrid';
 
 function Home() {
   /* const schemaData = [
@@ -39,23 +39,23 @@ function Home() {
             width="250"
             height="250"
             loading="eager"
-            style={{ borderRadius: "50%", objectFit: "cover" }}
+            style={{ borderRadius: '50%', objectFit: 'cover' }}
           />
         </div>
         <h1>
-          {" "}
+          {' '}
           <span className="">Hello, I'm Uyonoh</span> <br /> A Web Developer ,
           Python Engineer <br /> & GIS Analyst
         </h1>
         <p className="blue-green text-center">
           Building the future with code and innovation.
         </p>
-        <button onClick={() => (window.location.href = "#projects")}>
+        <button onClick={() => (window.location.href = '#projects')}>
           My Work
         </button>
         <button
           className="button outline"
-          onClick={() => (window.location.href = "#footer")}
+          onClick={() => (window.location.href = '#footer')}
         >
           Get in Touch
         </button>

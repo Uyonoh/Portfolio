@@ -1,7 +1,7 @@
-import { useState } from "react";
+import { useState } from 'react';
 
 function AuthForm({ type, onSubmit }) {
-  const [formData, setFormData] = useState({ username: "", password: "" });
+  const [formData, setFormData] = useState({ username: '', password: '' });
 
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
@@ -14,10 +14,22 @@ function AuthForm({ type, onSubmit }) {
 
   return (
     <form onSubmit={handleSubmit} className="auth-form">
-      <h2>{type === "login" ? "Login" : "Sign Up"}</h2>
-      <input type="text" name="username" placeholder="Username" onChange={handleChange} required />
-      <input type="password" name="password" placeholder="Password" onChange={handleChange} required />
-      <button type="submit">{type === "login" ? "Login" : "Sign Up"}</button>
+      <h2>{type === 'login' ? 'Login' : 'Sign Up'}</h2>
+      <input
+        type="text"
+        name="username"
+        placeholder="Username"
+        onChange={handleChange}
+        required
+      />
+      <input
+        type="password"
+        name="password"
+        placeholder="Password"
+        onChange={handleChange}
+        required
+      />
+      <button type="submit">{type === 'login' ? 'Login' : 'Sign Up'}</button>
     </form>
   );
 }

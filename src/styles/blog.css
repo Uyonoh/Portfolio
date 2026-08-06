@@ -1,84 +1,83 @@
 #root #blog {
-    margin-top: 50px;
-    padding: 1rem;
+  margin-top: 50px;
+  padding: 1rem;
 }
 
 body {
-	padding: 2rem 1rem .1rem;
+  padding: 2rem 1rem 0.1rem;
 }
 
 header {
-	border-top: 1px solid #eee;
-	border-bottom: 1px solid #eee;
-	padding: 5px 0;
-	
-	h1 {
-		margin: 0;
-		}
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  padding: 5px 0;
+
+  h1 {
+    margin: 0;
+  }
 }
 
-
 nav {
-	padding: .5rem 0;
+  padding: 0.5rem 0;
 }
 
 .cont {
-	padding-left:  5rem;
-	padding-right: 5rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
 }
 
 .flex {
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	gap: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
 }
 
 .flex.lt {
-	justify-content: left;
+  justify-content: left;
 }
 
 .flex.rt {
-	justify-content: right;
+  justify-content: right;
 }
 
 .search {
-	padding: .3rem;
-	margin-left: 1rem;
+  padding: 0.3rem;
+  margin-left: 1rem;
 }
 
 .bb {
-	border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #eee;
 }
 
 .bggrey {
-	border: none;
-	background-color: #eee;
+  border: none;
+  background-color: #eee;
 }
 
 .bggreen {
-	background-color: green;
-	color: #fff;
-	padding: 2px;
-	border-radius: 5px;
+  background-color: green;
+  color: #fff;
+  padding: 2px;
+  border-radius: 5px;
 }
 
 .round-edge {
-	border-radius: 10px;
+  border-radius: 10px;
 }
 
 input:focus-visible {
-	outline: none;
+  outline: none;
 }
 
 .posts {
-	padding-top: 1rem;
-	border-right: 1 px solid #eee;
-	margin-right: 20%;
+  padding-top: 1rem;
+  border-right: 1 px solid #eee;
+  margin-right: 20%;
 }
 
 .post {
-	width: 60%;
-	padding-bottom: 2rem;
-	padding-top: 2rem;
+  width: 60%;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
 }

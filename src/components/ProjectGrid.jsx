@@ -1,5 +1,5 @@
-import ProjectCard from "./ProjectCard";
-import { projects } from "../lib/data";
+import ProjectCard from './ProjectCard';
+import { projects } from '../lib/data';
 
 function ProjectGrid() {
   return (

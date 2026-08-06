@@ -1,0 +1,6 @@
+.git/
+node_modules/
+build/
+dist/
+public/bootstrap-5.3.3-dist/
+public/assets/

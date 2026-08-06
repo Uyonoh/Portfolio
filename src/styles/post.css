@@ -1,18 +1,17 @@
 .round {
-	border-radius: 50%;
+  border-radius: 50%;
 }
 
 .grey {
-	color: grey;
+  color: grey;
 }
 
 .mid {
-	flex-direction: column;
-	padding: 1rem 15rem;
+  flex-direction: column;
+  padding: 1rem 15rem;
 }
 
 .ct {
-	justify-content: center;
-	align-items: center;
-	
+  justify-content: center;
+  align-items: center;
 }
