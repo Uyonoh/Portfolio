@@ -2,19 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
-    <loc>https://www.uyonoh.com/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://uyonoh.com/</loc>
+    <lastmod>2026-08-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
     <image:image>
-      <image:loc>https://www.uyonoh.com/assets/images/profile/profile.jpg</image:loc>
+      <image:loc>https://uyonoh.com/assets/images/profile/profile.jpg</image:loc>
       <image:title>Uyonoh's profile</image:title>
       <image:family_friendly>yes</image:family_friendly>
     </image:image>
   </url>
   <url>
-    <loc>https://www.blog.uyonoh.com</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://blog.uyonoh.com/</loc>
+    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
